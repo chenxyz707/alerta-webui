@@ -8,7 +8,6 @@
       :rows-per-page-items="pagination.rowsPerPageItems"
       class="alert-table"
       :class="[ displayDensity ]"
-      :search="search"
       must-sort
       :custom-sort="customSort"
       sort-icon="arrow_drop_down"
